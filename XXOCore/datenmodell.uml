@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GkpJoCdNEeawfKdIMhU6Ag" name="Models">
+  <packagedElement xmi:type="uml:Class" xmi:id="_o0V3sCdOEeaaLO1C9G8hzw" name="Spielfigur" isAbstract="true">
+    <generalization xmi:id="_1dqTMCdPEeaaLO1C9G8hzw" general="_oRi3MCdPEeaaLO1C9G8hzw"/>
+    <generalization xmi:id="_AG9NICdQEeaaLO1C9G8hzw" general="_7NRhYCdPEeaaLO1C9G8hzw"/>
+    <ownedAttribute xmi:id="_-xY90CdOEeaaLO1C9G8hzw" name="X">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L9sAACdPEeaaLO1C9G8hzw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dp-bkCdPEeaaLO1C9G8hzw" name="Y">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oRi3MCdPEeaaLO1C9G8hzw" name="SpielfigurX"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7NRhYCdPEeaaLO1C9G8hzw" name="SpielfigurO"/>
+</uml:Model>
